@@ -1,72 +1,71 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element extends="task" label="Visa Application" max_length="40" name="x_300454_visa_app_visa_application" sizeclass="22" type="collection">
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Country You are Applying Visa from " max_length="40" name="country_of_applying" type="choice">
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="16d5016897931110df6f38271153af71" extends="task" label="Visa Application" max_length="40" name="x_300454_visa_app_visa_application" type="collection">
+        <element choice="1" label="Country You are Applying Visa from" max_length="40" name="country_of_applying" type="choice">
             <choice>
-                <element label="India" sequence="0" value="India"/>
-                <element label="USA" sequence="1" value="USA"/>
-                <element label="UK" sequence="2" value="UK"/>
-                <element label="Australia" sequence="3" value="Australia"/>
+                <element inactive_on_update="false" label="India" sequence="0" value="India"/>
+                <element inactive_on_update="false" label="USA" sequence="1" value="USA"/>
+                <element inactive_on_update="false" label="UK" sequence="2" value="UK"/>
+                <element inactive_on_update="false" label="Australia" sequence="3" value="Australia"/>
             </choice>
         </element>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Country of Birth" max_length="32" name="country_of_birth" reference="core_country" type="reference"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Country of Issue " max_length="32" name="country_of_issue" reference="cmn_location" type="reference"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Date of Birth " max_length="40" name="date_of_birth" type="glide_date"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Date of Expiry" max_length="40" name="date_of_expiry" type="glide_date"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Date of Issue" max_length="40" name="date_of_issue" type="glide_date"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Date of Issue" max_length="40" name="date_of_issue_other" type="glide_date"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Email" max_length="40" name="email" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Expected date of travel" max_length="40" name="expected_date_of_travel" type="glide_date"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Father's Name" max_length="30" name="father_name" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Given Name (as in Passport)" max_length="40" name="given_name" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Marital Status" max_length="40" name="marital_status" type="choice">
+        <element label="Country of Birth" max_length="32" name="country_of_birth" reference="core_country" type="reference"/>
+        <element label="Country of Issue" max_length="32" name="country_of_issue" reference="cmn_location" type="reference"/>
+        <element label="Date of Birth" max_length="40" name="date_of_birth" type="glide_date"/>
+        <element label="Date of Expiry" max_length="40" name="date_of_expiry" type="glide_date"/>
+        <element label="Date of Issue" max_length="40" name="date_of_issue" type="glide_date"/>
+        <element label="Date of Issue" max_length="40" name="date_of_issue_other" type="glide_date"/>
+        <element label="Email" max_length="40" name="email" type="string"/>
+        <element label="Expected date of travel" max_length="40" name="expected_date_of_travel" type="glide_date"/>
+        <element label="Father's Name" max_length="30" name="father_name" type="string"/>
+        <element label="Given Name (as in Passport)" max_length="40" name="given_name" type="string"/>
+        <element choice="1" label="Marital Status" max_length="40" name="marital_status" type="choice">
             <choice>
-                <element label="Married" value="married"/>
-                <element label="Unmarried" value="unmarried"/>
+                <element inactive_on_update="false" label="Married" value="married"/>
+                <element inactive_on_update="false" label="Unmarried" value="unmarried"/>
             </choice>
         </element>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Moblie no" max_length="40" name="moblie_no" type="phone_number_e164"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Mother's Name" max_length="40" name="mother_name" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Nationality" max_length="32" name="nationality" reference="core_country" type="reference"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Previous / Other Name (if any) " max_length="40" name="other_name" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Any other Passport/Identity Certificate hold (if yes,then fill in following )" max_length="40" name="other_passport_identity" type="boolean"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Passport #" max_length="10" name="passport_no_other" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Passport Number" max_length="10" name="passport_number" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Period of Visa" max_length="40" name="period_of_visa" type="glide_date"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Permanent Address" max_length="4000" name="permanent_address" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Phone #" max_length="40" name="phone_number" type="phone_number_e164"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Place of Birth" max_length="40" name="place_of_birth" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Place of Issue" max_length="40" name="place_of_issue" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Place of Issue" max_length="40" name="place_of_issue_other" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Present Address " max_length="4000" name="present_address" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Educational Qualification" max_length="40" name="qualification" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Region" max_length="40" name="region" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Sex" max_length="40" name="sex" type="choice">
+        <element label="Moblie no" max_length="40" name="moblie_no" type="phone_number_e164"/>
+        <element label="Mother's Name" max_length="40" name="mother_name" type="string"/>
+        <element label="Nationality" max_length="32" name="nationality" reference="core_country" type="reference"/>
+        <element label="Previous / Other Name (if any)" max_length="40" name="other_name" type="string"/>
+        <element label="Any other Passport/Identity Certificate hold (if yes,then fill in following )" max_length="40" name="other_passport_identity" type="boolean"/>
+        <element label="Passport #" max_length="10" name="passport_no_other" type="string"/>
+        <element label="Passport Number" max_length="10" name="passport_number" type="string"/>
+        <element label="Period of Visa" max_length="40" name="period_of_visa" type="glide_date"/>
+        <element label="Permanent Address" max_length="4000" name="permanent_address" type="string"/>
+        <element label="Phone #" max_length="40" name="phone_number" type="phone_number_e164"/>
+        <element calculation="(function calculatedFieldValue(current) {&#10;&#10;&#9;// Add your code here&#10;&#9;return '';  // return the calculated values&#10;&#10;})(current);" label="Place of Birth" max_length="40" name="place_of_birth" type="string"/>
+        <element label="Place of Issue" max_length="40" name="place_of_issue" type="string"/>
+        <element label="Place of Issue" max_length="40" name="place_of_issue_other" type="string"/>
+        <element label="Present Address" max_length="4000" name="present_address" type="string"/>
+        <element label="Educational Qualification" max_length="40" name="qualification" type="string"/>
+        <element label="Region" max_length="40" name="region" type="string"/>
+        <element choice="1" label="Sex" max_length="40" name="sex" type="choice">
             <choice>
-                <element label="Male" sequence="0" value="male"/>
-                <element label="Female" sequence="1" value="female"/>
+                <element inactive_on_update="false" label="Male" sequence="0" value="male"/>
+                <element inactive_on_update="false" label="Female" sequence="1" value="female"/>
             </choice>
         </element>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Spouse" max_length="40" name="spouse" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Surname (As in Passport)" max_length="40" name="surname" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" default="1" label="Visa Status" max_length="40" name="visa_status" type="choice">
+        <element label="Spouse" max_length="40" name="spouse" type="string"/>
+        <element label="Surname (As in Passport)" max_length="40" name="surname" type="string"/>
+        <element choice="1" default="1" label="Visa Status" max_length="40" name="visa_status" type="choice">
             <choice>
-                <element label="Open" sequence="0" value="1"/>
-                <element label="WIP" sequence="1" value="2"/>
-                <element label="Review" sequence="2" value="3"/>
-                <element label="In Review with Consulate" sequence="3" value="4"/>
-                <element label="Stamping" sequence="4" value="5"/>
-                <element label="Delivered" sequence="5" value="6"/>
-                <element label="Pending" sequence="6" value="7"/>
-                <element label="Rejected" sequence="7" value="8"/>
-             </choice>
+                <element inactive_on_update="false" label="Open" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="WIP" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Review" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="In Review with Consulate" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Stamping" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Delivered" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Pending" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="Rejected" sequence="7" value="8"/>
+            </choice>
         </element>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Visa Type" max_length="40" name="visa_type" type="choice">
+        <element choice="1" label="Visa Type" max_length="40" name="visa_type" type="choice">
             <choice>
-                <element label="Tourist" sequence="0" value="Tourist"/>
-                <element label="Business" sequence="1" value="Business"/>
-                <element label="Employment" sequence="2" value="Employment"/>
-                <element label="Student" sequence="3" value="Student"/>
+                <element inactive_on_update="false" label="Tourist" sequence="0" value="Tourist"/>
+                <element inactive_on_update="false" label="Business" sequence="1" value="Business"/>
+                <element inactive_on_update="false" label="Employment" sequence="2" value="Employment"/>
+                <element inactive_on_update="false" label="Student" sequence="3" value="Student"/>
             </choice>
         </element>
     </element>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="wf_workflow_version">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
     <wf_workflow_version action="INSERT_OR_UPDATE">
         <active>true</active>
         <activity_stages>{"activities":{},"subflows":[],"stages":{},"ends":["541f6c1f4f3663008f3133718110c722"]}</activity_stages>
@@ -7,7 +6,7 @@
         <checked_out/>
         <checked_out_by/>
         <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
-        <condition table="x_300454_visa_app_visa_application">visa_status=3^EQ<item endquery="false" field="visa_status" goto="false" newquery="false" operator="=" or="false" value="3"/>
+        <condition table="x_300454_visa_app_visa_application">visa_status=3^EQ<item display_value="Review" endquery="false" field="visa_status" goto="false" newquery="false" operator="=" or="false" value="3"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <condition_type>run_match</condition_type>
@@ -107,7 +106,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:20:44</sys_updated_on>
         <value/>
-        <variable display_value="">a8aaecf5c0a8006617527ddc62f2d668</variable>
+        <variable display_value="Schedule field">a8aaecf5c0a8006617527ddc62f2d668</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -121,7 +120,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:20:44</sys_updated_on>
         <value/>
-        <variable display_value="">1bd4c8c00a0a0b26635e191420fd194c</variable>
+        <variable display_value="Condition">1bd4c8c00a0a0b26635e191420fd194c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -135,7 +134,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:20:44</sys_updated_on>
         <value/>
-        <variable display_value="">a8ac8459c0a8006628d8903b8b2e579b</variable>
+        <variable display_value="Time zone based on">a8ac8459c0a8006628d8903b8b2e579b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -149,7 +148,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:20:44</sys_updated_on>
         <value/>
-        <variable display_value="">a8ae0641c0a800664ae7b95978e88d56</variable>
+        <variable display_value="Time zone field">a8ae0641c0a800664ae7b95978e88d56</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -193,7 +192,7 @@
 //                 ...  group.total ...&#13;
 //            }&#13;
 </value>
-        <variable display_value="">069e81530a0a0b264289c1e23fe52558</variable>
+        <variable display_value="Approval script">069e81530a0a0b264289c1e23fe52558</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -207,7 +206,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:20:44</sys_updated_on>
         <value/>
-        <variable display_value="">a8a5b2aac0a80066020adf74bd35c283</variable>
+        <variable display_value="Duration">a8a5b2aac0a80066020adf74bd35c283</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -221,7 +220,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:20:44</sys_updated_on>
         <value>26e7888f4ffa23008f3133718110c7cb</value>
-        <variable display_value="">c35dc8950a0a0ba96248a70936f964a8</variable>
+        <variable display_value="Groups">c35dc8950a0a0ba96248a70936f964a8</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -235,7 +234,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:20:44</sys_updated_on>
         <value/>
-        <variable display_value="">a8a29434c0a80066575097078b386f8d</variable>
+        <variable display_value="Due date based on">a8a29434c0a80066575097078b386f8d</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -249,7 +248,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:20:44</sys_updated_on>
         <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
-        <variable display_value="">a8abc43ac0a800664b9b89a9f3f2c7a1</variable>
+        <variable display_value="Schedule">a8abc43ac0a800664b9b89a9f3f2c7a1</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -263,7 +262,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:20:44</sys_updated_on>
         <value/>
-        <variable display_value="">a8ad144ec0a8006638755cb3662df229</variable>
+        <variable display_value="Time zone">a8ad144ec0a8006638755cb3662df229</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -283,7 +282,7 @@
 //       answer.push('id1');&#13;
 //       answer.push('id2');&#13;
 </value>
-        <variable display_value="">069c53740a0a0b260e35ee0ead2dbbcc</variable>
+        <variable display_value="Additional groups script">069c53740a0a0b260e35ee0ead2dbbcc</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -297,7 +296,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:20:44</sys_updated_on>
         <value/>
-        <variable display_value="">a8a63d44c0a8006617a1a568e6ee0d9e</variable>
+        <variable display_value="Due date field">a8a63d44c0a8006617a1a568e6ee0d9e</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -311,7 +310,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:20:44</sys_updated_on>
         <value>0</value>
-        <variable display_value="">069bd78c0a0a0b267fa35f3d77e02a10</variable>
+        <variable display_value="Advanced">069bd78c0a0a0b267fa35f3d77e02a10</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -325,7 +324,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:20:44</sys_updated_on>
         <value>reject</value>
-        <variable display_value="">4fc0fabe0a6a803f7f0af58179445dbb</variable>
+        <variable display_value="When anyone rejects">4fc0fabe0a6a803f7f0af58179445dbb</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -339,7 +338,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:20:44</sys_updated_on>
         <value>any_each</value>
-        <variable display_value="">0698d53c0a0a0b2627f7cf654de211b6</variable>
+        <variable display_value="Wait for">0698d53c0a0a0b2627f7cf654de211b6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -353,7 +352,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:20:44</sys_updated_on>
         <value/>
-        <variable display_value="">a8a89323c0a80066046c6c1fd0df6475</variable>
+        <variable display_value="Schedule based on">a8a89323c0a80066046c6c1fd0df6475</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -367,7 +366,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:20:44</sys_updated_on>
         <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
-        <variable display_value="">a8a7bc7dc0a800666777a9bd9b84fef8</variable>
+        <variable display_value="Relative duration">a8a7bc7dc0a800666777a9bd9b84fef8</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -382,7 +381,7 @@
         <sys_updated_on>2019-01-09 22:20:44</sys_updated_on>
         <value>// Set 'answer' to the number of seconds this timer should wait&#13;
 answer = 0;</value>
-        <variable display_value="">a8a16056c0a800660449c1bbc94d797f</variable>
+        <variable display_value="Due date script">a8a16056c0a800660449c1bbc94d797f</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -396,7 +395,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:20:44</sys_updated_on>
         <value/>
-        <variable display_value="">1bd4c8c00a0a0b26635e191420fd194c</variable>
+        <variable display_value="Condition">1bd4c8c00a0a0b26635e191420fd194c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -410,7 +409,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:20:44</sys_updated_on>
         <value>any_each</value>
-        <variable display_value="">0698d53c0a0a0b2627f7cf654de211b6</variable>
+        <variable display_value="Wait for">0698d53c0a0a0b2627f7cf654de211b6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -424,7 +423,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:20:44</sys_updated_on>
         <value/>
-        <variable display_value="">a8a89323c0a80066046c6c1fd0df6475</variable>
+        <variable display_value="Schedule based on">a8a89323c0a80066046c6c1fd0df6475</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -438,7 +437,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:20:44</sys_updated_on>
         <value/>
-        <variable display_value="">a8a29434c0a80066575097078b386f8d</variable>
+        <variable display_value="Due date based on">a8a29434c0a80066575097078b386f8d</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -452,7 +451,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:20:44</sys_updated_on>
         <value/>
-        <variable display_value="">a8ac8459c0a8006628d8903b8b2e579b</variable>
+        <variable display_value="Time zone based on">a8ac8459c0a8006628d8903b8b2e579b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -466,7 +465,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:20:44</sys_updated_on>
         <value>26e7888f4ffa23008f3133718110c7cb</value>
-        <variable display_value="">c35dc8950a0a0ba96248a70936f964a8</variable>
+        <variable display_value="Groups">c35dc8950a0a0ba96248a70936f964a8</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -480,7 +479,21 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:20:44</sys_updated_on>
         <value>reject</value>
-        <variable display_value="">4fc0fabe0a6a803f7f0af58179445dbb</variable>
+        <variable display_value="When anyone rejects">4fc0fabe0a6a803f7f0af58179445dbb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>78d4b95f4fb663008f3133718110c785</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-09 22:20:44</sys_created_on>
+        <sys_id>4f15fd134ff663008f3133718110c77e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-09 22:20:44</sys_updated_on>
+        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
+        <variable display_value="Schedule">a8abc43ac0a800664b9b89a9f3f2c7a1</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -494,21 +507,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:20:44</sys_updated_on>
         <value/>
-        <variable display_value="">a8aaecf5c0a8006617527ddc62f2d668</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>78d4b95f4fb663008f3133718110c785</document_key>
-        <order>900</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-01-09 22:20:44</sys_created_on>
-        <sys_id>4f15fd134ff663008f3133718110c77e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-01-09 22:20:44</sys_updated_on>
-        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
-        <variable display_value="">a8abc43ac0a800664b9b89a9f3f2c7a1</variable>
+        <variable display_value="Schedule field">a8aaecf5c0a8006617527ddc62f2d668</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -522,7 +521,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:20:44</sys_updated_on>
         <value/>
-        <variable display_value="">a8a5b2aac0a80066020adf74bd35c283</variable>
+        <variable display_value="Duration">a8a5b2aac0a80066020adf74bd35c283</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -536,35 +535,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:20:44</sys_updated_on>
         <value/>
-        <variable display_value="">a8a63d44c0a8006617a1a568e6ee0d9e</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>78d4b95f4fb663008f3133718110c785</document_key>
-        <order>1200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-01-09 22:20:44</sys_created_on>
-        <sys_id>0f15fd134ff663008f3133718110c77f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-01-09 22:20:44</sys_updated_on>
-        <value/>
-        <variable display_value="">a8ae0641c0a800664ae7b95978e88d56</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>78d4b95f4fb663008f3133718110c785</document_key>
-        <order>1200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-01-09 22:20:44</sys_created_on>
-        <sys_id>8315fd134ff663008f3133718110c77d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-01-09 22:20:44</sys_updated_on>
-        <value/>
-        <variable display_value="">a8ad144ec0a8006638755cb3662df229</variable>
+        <variable display_value="Due date field">a8a63d44c0a8006617a1a568e6ee0d9e</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -578,7 +549,35 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:20:44</sys_updated_on>
         <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
-        <variable display_value="">a8a7bc7dc0a800666777a9bd9b84fef8</variable>
+        <variable display_value="Relative duration">a8a7bc7dc0a800666777a9bd9b84fef8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>78d4b95f4fb663008f3133718110c785</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-09 22:20:44</sys_created_on>
+        <sys_id>8315fd134ff663008f3133718110c77d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-09 22:20:44</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone">a8ad144ec0a8006638755cb3662df229</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>78d4b95f4fb663008f3133718110c785</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-09 22:20:44</sys_created_on>
+        <sys_id>0f15fd134ff663008f3133718110c77f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-09 22:20:44</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone field">a8ae0641c0a800664ae7b95978e88d56</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -593,7 +592,7 @@ answer = 0;</value>
         <sys_updated_on>2019-01-09 22:20:44</sys_updated_on>
         <value>// Set 'answer' to the number of seconds this timer should wait&#13;
 answer = 0;</value>
-        <variable display_value="">a8a16056c0a800660449c1bbc94d797f</variable>
+        <variable display_value="Due date script">a8a16056c0a800660449c1bbc94d797f</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -637,7 +636,7 @@ answer = 0;</value>
 //                 ...  group.total ...&#13;
 //            }&#13;
 </value>
-        <variable display_value="">069e81530a0a0b264289c1e23fe52558</variable>
+        <variable display_value="Approval script">069e81530a0a0b264289c1e23fe52558</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -651,7 +650,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:20:44</sys_updated_on>
         <value>0</value>
-        <variable display_value="">069bd78c0a0a0b267fa35f3d77e02a10</variable>
+        <variable display_value="Advanced">069bd78c0a0a0b267fa35f3d77e02a10</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -671,7 +670,7 @@ answer = 0;</value>
 //       answer.push('id1');&#13;
 //       answer.push('id2');&#13;
 </value>
-        <variable display_value="">069c53740a0a0b260e35ee0ead2dbbcc</variable>
+        <variable display_value="Additional groups script">069c53740a0a0b260e35ee0ead2dbbcc</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Approval at Consulate">78d4b95f4fb663008f3133718110c785</activity>
@@ -806,7 +805,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:27:05</sys_updated_on>
         <value>any_each</value>
-        <variable display_value="">0698d53c0a0a0b2627f7cf654de211b6</variable>
+        <variable display_value="Wait for">0698d53c0a0a0b2627f7cf654de211b6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -820,7 +819,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:27:05</sys_updated_on>
         <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
-        <variable display_value="">a8a7bc7dc0a800666777a9bd9b84fef8</variable>
+        <variable display_value="Relative duration">a8a7bc7dc0a800666777a9bd9b84fef8</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -835,7 +834,7 @@ answer = 0;</value>
         <sys_updated_on>2019-01-09 17:27:05</sys_updated_on>
         <value>// Set 'answer' to the number of seconds this timer should wait&#13;
 answer = 0;</value>
-        <variable display_value="">a8a16056c0a800660449c1bbc94d797f</variable>
+        <variable display_value="Due date script">a8a16056c0a800660449c1bbc94d797f</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -879,7 +878,7 @@ answer = 0;</value>
 //                 ...  group.total ...&#13;
 //            }&#13;
 </value>
-        <variable display_value="">069e81530a0a0b264289c1e23fe52558</variable>
+        <variable display_value="Approval script">069e81530a0a0b264289c1e23fe52558</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -893,7 +892,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:27:05</sys_updated_on>
         <value/>
-        <variable display_value="">1bd4c8c00a0a0b26635e191420fd194c</variable>
+        <variable display_value="Condition">1bd4c8c00a0a0b26635e191420fd194c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -907,7 +906,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:27:05</sys_updated_on>
         <value/>
-        <variable display_value="">a8ac8459c0a8006628d8903b8b2e579b</variable>
+        <variable display_value="Time zone based on">a8ac8459c0a8006628d8903b8b2e579b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -921,7 +920,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:27:05</sys_updated_on>
         <value>0</value>
-        <variable display_value="">069bd78c0a0a0b267fa35f3d77e02a10</variable>
+        <variable display_value="Advanced">069bd78c0a0a0b267fa35f3d77e02a10</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -935,7 +934,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:27:05</sys_updated_on>
         <value/>
-        <variable display_value="">a8aaecf5c0a8006617527ddc62f2d668</variable>
+        <variable display_value="Schedule field">a8aaecf5c0a8006617527ddc62f2d668</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -949,7 +948,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:27:05</sys_updated_on>
         <value/>
-        <variable display_value="">a8ae0641c0a800664ae7b95978e88d56</variable>
+        <variable display_value="Time zone field">a8ae0641c0a800664ae7b95978e88d56</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -963,7 +962,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:27:05</sys_updated_on>
         <value>1bc5c08f4ffa23008f3133718110c746</value>
-        <variable display_value="">c35dc8950a0a0ba96248a70936f964a8</variable>
+        <variable display_value="Groups">c35dc8950a0a0ba96248a70936f964a8</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -977,7 +976,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:27:05</sys_updated_on>
         <value/>
-        <variable display_value="">a8a29434c0a80066575097078b386f8d</variable>
+        <variable display_value="Due date based on">a8a29434c0a80066575097078b386f8d</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -991,7 +990,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:27:05</sys_updated_on>
         <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
-        <variable display_value="">a8abc43ac0a800664b9b89a9f3f2c7a1</variable>
+        <variable display_value="Schedule">a8abc43ac0a800664b9b89a9f3f2c7a1</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1005,7 +1004,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:27:05</sys_updated_on>
         <value/>
-        <variable display_value="">a8a5b2aac0a80066020adf74bd35c283</variable>
+        <variable display_value="Duration">a8a5b2aac0a80066020adf74bd35c283</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1019,7 +1018,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:27:05</sys_updated_on>
         <value/>
-        <variable display_value="">a8a89323c0a80066046c6c1fd0df6475</variable>
+        <variable display_value="Schedule based on">a8a89323c0a80066046c6c1fd0df6475</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1039,7 +1038,7 @@ answer = 0;</value>
 //       answer.push('id1');&#13;
 //       answer.push('id2');&#13;
 </value>
-        <variable display_value="">069c53740a0a0b260e35ee0ead2dbbcc</variable>
+        <variable display_value="Additional groups script">069c53740a0a0b260e35ee0ead2dbbcc</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1053,7 +1052,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:27:05</sys_updated_on>
         <value/>
-        <variable display_value="">a8a63d44c0a8006617a1a568e6ee0d9e</variable>
+        <variable display_value="Due date field">a8a63d44c0a8006617a1a568e6ee0d9e</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1067,7 +1066,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:27:05</sys_updated_on>
         <value>reject</value>
-        <variable display_value="">4fc0fabe0a6a803f7f0af58179445dbb</variable>
+        <variable display_value="When anyone rejects">4fc0fabe0a6a803f7f0af58179445dbb</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1081,7 +1080,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:27:05</sys_updated_on>
         <value/>
-        <variable display_value="">a8ad144ec0a8006638755cb3662df229</variable>
+        <variable display_value="Time zone">a8ad144ec0a8006638755cb3662df229</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1095,7 +1094,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:27:05</sys_updated_on>
         <value/>
-        <variable display_value="">1bd4c8c00a0a0b26635e191420fd194c</variable>
+        <variable display_value="Condition">1bd4c8c00a0a0b26635e191420fd194c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1109,7 +1108,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:27:05</sys_updated_on>
         <value>any_each</value>
-        <variable display_value="">0698d53c0a0a0b2627f7cf654de211b6</variable>
+        <variable display_value="Wait for">0698d53c0a0a0b2627f7cf654de211b6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1123,7 +1122,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:27:05</sys_updated_on>
         <value/>
-        <variable display_value="">a8a89323c0a80066046c6c1fd0df6475</variable>
+        <variable display_value="Schedule based on">a8a89323c0a80066046c6c1fd0df6475</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1137,7 +1136,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:27:05</sys_updated_on>
         <value/>
-        <variable display_value="">a8a29434c0a80066575097078b386f8d</variable>
+        <variable display_value="Due date based on">a8a29434c0a80066575097078b386f8d</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1151,7 +1150,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:27:05</sys_updated_on>
         <value/>
-        <variable display_value="">a8ac8459c0a8006628d8903b8b2e579b</variable>
+        <variable display_value="Time zone based on">a8ac8459c0a8006628d8903b8b2e579b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1165,7 +1164,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:27:05</sys_updated_on>
         <value>1bc5c08f4ffa23008f3133718110c746</value>
-        <variable display_value="">c35dc8950a0a0ba96248a70936f964a8</variable>
+        <variable display_value="Groups">c35dc8950a0a0ba96248a70936f964a8</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1179,7 +1178,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:27:05</sys_updated_on>
         <value>reject</value>
-        <variable display_value="">4fc0fabe0a6a803f7f0af58179445dbb</variable>
+        <variable display_value="When anyone rejects">4fc0fabe0a6a803f7f0af58179445dbb</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1193,7 +1192,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:27:05</sys_updated_on>
         <value/>
-        <variable display_value="">a8aaecf5c0a8006617527ddc62f2d668</variable>
+        <variable display_value="Schedule field">a8aaecf5c0a8006617527ddc62f2d668</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1207,7 +1206,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:27:05</sys_updated_on>
         <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
-        <variable display_value="">a8abc43ac0a800664b9b89a9f3f2c7a1</variable>
+        <variable display_value="Schedule">a8abc43ac0a800664b9b89a9f3f2c7a1</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1221,7 +1220,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:27:05</sys_updated_on>
         <value/>
-        <variable display_value="">a8a5b2aac0a80066020adf74bd35c283</variable>
+        <variable display_value="Duration">a8a5b2aac0a80066020adf74bd35c283</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1235,7 +1234,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:27:05</sys_updated_on>
         <value/>
-        <variable display_value="">a8a63d44c0a8006617a1a568e6ee0d9e</variable>
+        <variable display_value="Due date field">a8a63d44c0a8006617a1a568e6ee0d9e</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1249,21 +1248,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:27:05</sys_updated_on>
         <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
-        <variable display_value="">a8a7bc7dc0a800666777a9bd9b84fef8</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>125fa85f4f3663008f3133718110c742</document_key>
-        <order>1200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-01-09 17:27:05</sys_created_on>
-        <sys_id>a1e13c9f4f3663008f3133718110c794</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-01-09 17:27:05</sys_updated_on>
-        <value/>
-        <variable display_value="">a8ae0641c0a800664ae7b95978e88d56</variable>
+        <variable display_value="Relative duration">a8a7bc7dc0a800666777a9bd9b84fef8</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1277,7 +1262,21 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:27:05</sys_updated_on>
         <value/>
-        <variable display_value="">a8ad144ec0a8006638755cb3662df229</variable>
+        <variable display_value="Time zone">a8ad144ec0a8006638755cb3662df229</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>125fa85f4f3663008f3133718110c742</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-09 17:27:05</sys_created_on>
+        <sys_id>a1e13c9f4f3663008f3133718110c794</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-09 17:27:05</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone field">a8ae0641c0a800664ae7b95978e88d56</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1292,7 +1291,7 @@ answer = 0;</value>
         <sys_updated_on>2019-01-09 17:27:05</sys_updated_on>
         <value>// Set 'answer' to the number of seconds this timer should wait&#13;
 answer = 0;</value>
-        <variable display_value="">a8a16056c0a800660449c1bbc94d797f</variable>
+        <variable display_value="Due date script">a8a16056c0a800660449c1bbc94d797f</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1336,7 +1335,7 @@ answer = 0;</value>
 //                 ...  group.total ...&#13;
 //            }&#13;
 </value>
-        <variable display_value="">069e81530a0a0b264289c1e23fe52558</variable>
+        <variable display_value="Approval script">069e81530a0a0b264289c1e23fe52558</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1350,7 +1349,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:27:05</sys_updated_on>
         <value>0</value>
-        <variable display_value="">069bd78c0a0a0b267fa35f3d77e02a10</variable>
+        <variable display_value="Advanced">069bd78c0a0a0b267fa35f3d77e02a10</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1370,7 +1369,7 @@ answer = 0;</value>
 //       answer.push('id1');&#13;
 //       answer.push('id2');&#13;
 </value>
-        <variable display_value="">069c53740a0a0b260e35ee0ead2dbbcc</variable>
+        <variable display_value="Additional groups script">069c53740a0a0b260e35ee0ead2dbbcc</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Docs Review Approval">125fa85f4f3663008f3133718110c742</activity>
@@ -1484,7 +1483,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:48:24</sys_updated_on>
         <value/>
-        <variable display_value="">8ec61405c0a800661755b30be4ff8fcd</variable>
+        <variable display_value="Due date field">8ec61405c0a800661755b30be4ff8fcd</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1498,7 +1497,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:48:24</sys_updated_on>
         <value/>
-        <variable display_value="">c35dd7a80a0a0ba96248a709f45ae01b</variable>
+        <variable display_value="Set values">c35dd7a80a0a0ba96248a709f45ae01b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1512,7 +1511,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:48:24</sys_updated_on>
         <value/>
-        <variable display_value="">8ed08869c0a800662aafc17e09975bb3</variable>
+        <variable display_value="Time zone based on">8ed08869c0a800662aafc17e09975bb3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1526,7 +1525,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:48:24</sys_updated_on>
         <value/>
-        <variable display_value="">8ed32275c0a800665d67078e699a171f</variable>
+        <variable display_value="Timezone field">8ed32275c0a800665d67078e699a171f</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1540,7 +1539,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:50:07</sys_updated_on>
         <value>1bc5c08f4ffa23008f3133718110c746</value>
-        <variable display_value="">c35e07ae0a0a0ba96248a7097c81317c</variable>
+        <variable display_value="Fulfillment group">c35e07ae0a0a0ba96248a7097c81317c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1561,7 +1560,7 @@ answer = 0;</value>
 //current.state=2;&#13;
 &#13;
 </value>
-        <variable display_value="">989cdb20c0a800661789b3de0f40214a</variable>
+        <variable display_value="Advanced Script">989cdb20c0a800661789b3de0f40214a</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1575,7 +1574,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:48:24</sys_updated_on>
         <value/>
-        <variable display_value="">c35e03850a0a0ba96248a709503bd0c4</variable>
+        <variable display_value="Duration">c35e03850a0a0ba96248a709503bd0c4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1589,7 +1588,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:48:24</sys_updated_on>
         <value>Enhancement task for reviewing visa docs</value>
-        <variable display_value="">c35e10720a0a0ba96248a709d48d0894</variable>
+        <variable display_value="Short description">c35e10720a0a0ba96248a709d48d0894</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1603,7 +1602,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:48:24</sys_updated_on>
         <value/>
-        <variable display_value="">8ec1dbcec0a800662abc511f1daedc1d</variable>
+        <variable display_value="Due date based on">8ec1dbcec0a800662abc511f1daedc1d</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1617,7 +1616,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 18:11:14</sys_updated_on>
         <value>1</value>
-        <variable display_value="">989c45c8c0a8006676efffafaa6d7442</variable>
+        <variable display_value="Advanced">989c45c8c0a8006676efffafaa6d7442</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1631,7 +1630,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:48:24</sys_updated_on>
         <value>Fields</value>
-        <variable display_value="">c35dfee20a0a0ba96248a709f3a40869</variable>
+        <variable display_value="Task values from">c35dfee20a0a0ba96248a709f3a40869</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1645,7 +1644,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:48:24</sys_updated_on>
         <value/>
-        <variable display_value="">c35e49040a0a0ba96248a709c2b3780b</variable>
+        <variable display_value="Priority">c35e49040a0a0ba96248a709c2b3780b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1659,7 +1658,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:48:24</sys_updated_on>
         <value/>
-        <variable display_value="">8ecbeba5c0a8006672d676cd11dfa881</variable>
+        <variable display_value="Schedule based on">8ecbeba5c0a8006672d676cd11dfa881</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1673,7 +1672,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:48:24</sys_updated_on>
         <value/>
-        <variable display_value="">c35e45aa0a0a0ba96248a709f3af7bac</variable>
+        <variable display_value="Task template">c35e45aa0a0a0ba96248a709f3af7bac</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1687,7 +1686,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:48:24</sys_updated_on>
         <value/>
-        <variable display_value="">8ecf789cc0a8006652fc30aae937c5aa</variable>
+        <variable display_value="Schedule field">8ecf789cc0a8006652fc30aae937c5aa</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1701,7 +1700,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:48:24</sys_updated_on>
         <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
-        <variable display_value="">8eda2a35c0a800660f7aef7be752bf0b</variable>
+        <variable display_value="Schedule">8eda2a35c0a800660f7aef7be752bf0b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1715,7 +1714,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:48:24</sys_updated_on>
         <value/>
-        <variable display_value="">c35e0c980a0a0ba96248a70916cbc62e</variable>
+        <variable display_value="Assigned to">c35e0c980a0a0ba96248a70916cbc62e</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1730,7 +1729,7 @@ answer = 0;</value>
         <sys_updated_on>2019-01-09 17:48:24</sys_updated_on>
         <value>// Set 'answer' to the number of seconds this timer should wait&#13;
 answer = 0;</value>
-        <variable display_value="">8eca692cc0a80066783fefee57143a1a</variable>
+        <variable display_value="Due date script">8eca692cc0a80066783fefee57143a1a</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1744,7 +1743,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:48:24</sys_updated_on>
         <value>rm_enhancement</value>
-        <variable display_value="">c35ddb660a0a0ba96248a7095d22925c</variable>
+        <variable display_value="Task type">c35ddb660a0a0ba96248a7095d22925c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1758,7 +1757,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:48:24</sys_updated_on>
         <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
-        <variable display_value="">8ec7a5dbc0a80066187fa7acf3778705</variable>
+        <variable display_value="Relative duration">8ec7a5dbc0a80066187fa7acf3778705</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1772,7 +1771,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:48:24</sys_updated_on>
         <value>1</value>
-        <variable display_value="">c35e5fc70a0a0ba96248a7091af61d11</variable>
+        <variable display_value="Wait for completion">c35e5fc70a0a0ba96248a7091af61d11</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1786,7 +1785,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:48:24</sys_updated_on>
         <value/>
-        <variable display_value="">8ed4dbbec0a800664dbecf404d2c7ccd</variable>
+        <variable display_value="Time zone">8ed4dbbec0a800664dbecf404d2c7ccd</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1800,7 +1799,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:48:24</sys_updated_on>
         <value/>
-        <variable display_value="">c35e176c0a0a0ba96248a7090e235011</variable>
+        <variable display_value="Instructions">c35e176c0a0a0ba96248a7090e235011</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1814,7 +1813,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:48:24</sys_updated_on>
         <value>rm_enhancement</value>
-        <variable display_value="">c35ddb660a0a0ba96248a7095d22925c</variable>
+        <variable display_value="Task type">c35ddb660a0a0ba96248a7095d22925c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1828,7 +1827,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:48:24</sys_updated_on>
         <value/>
-        <variable display_value="">c35e49040a0a0ba96248a709c2b3780b</variable>
+        <variable display_value="Priority">c35e49040a0a0ba96248a709c2b3780b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1842,7 +1841,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:48:24</sys_updated_on>
         <value>1</value>
-        <variable display_value="">c35e5fc70a0a0ba96248a7091af61d11</variable>
+        <variable display_value="Wait for completion">c35e5fc70a0a0ba96248a7091af61d11</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1856,7 +1855,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:48:24</sys_updated_on>
         <value/>
-        <variable display_value="">8ec1dbcec0a800662abc511f1daedc1d</variable>
+        <variable display_value="Due date based on">8ec1dbcec0a800662abc511f1daedc1d</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1870,7 +1869,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:48:24</sys_updated_on>
         <value/>
-        <variable display_value="">c35e03850a0a0ba96248a709503bd0c4</variable>
+        <variable display_value="Duration">c35e03850a0a0ba96248a709503bd0c4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1884,7 +1883,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:48:24</sys_updated_on>
         <value/>
-        <variable display_value="">8ec61405c0a800661755b30be4ff8fcd</variable>
+        <variable display_value="Due date field">8ec61405c0a800661755b30be4ff8fcd</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1898,7 +1897,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:48:24</sys_updated_on>
         <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
-        <variable display_value="">8ec7a5dbc0a80066187fa7acf3778705</variable>
+        <variable display_value="Relative duration">8ec7a5dbc0a80066187fa7acf3778705</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1912,7 +1911,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:48:24</sys_updated_on>
         <value/>
-        <variable display_value="">8ecbeba5c0a8006672d676cd11dfa881</variable>
+        <variable display_value="Schedule based on">8ecbeba5c0a8006672d676cd11dfa881</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1926,7 +1925,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:48:24</sys_updated_on>
         <value/>
-        <variable display_value="">8ecf789cc0a8006652fc30aae937c5aa</variable>
+        <variable display_value="Schedule field">8ecf789cc0a8006652fc30aae937c5aa</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1940,7 +1939,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:48:24</sys_updated_on>
         <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
-        <variable display_value="">8eda2a35c0a800660f7aef7be752bf0b</variable>
+        <variable display_value="Schedule">8eda2a35c0a800660f7aef7be752bf0b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1954,7 +1953,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:48:24</sys_updated_on>
         <value/>
-        <variable display_value="">8ed08869c0a800662aafc17e09975bb3</variable>
+        <variable display_value="Time zone based on">8ed08869c0a800662aafc17e09975bb3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1968,7 +1967,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:48:24</sys_updated_on>
         <value/>
-        <variable display_value="">8ed4dbbec0a800664dbecf404d2c7ccd</variable>
+        <variable display_value="Time zone">8ed4dbbec0a800664dbecf404d2c7ccd</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1982,7 +1981,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:48:24</sys_updated_on>
         <value/>
-        <variable display_value="">8ed32275c0a800665d67078e699a171f</variable>
+        <variable display_value="Timezone field">8ed32275c0a800665d67078e699a171f</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1996,7 +1995,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:48:24</sys_updated_on>
         <value>Fields</value>
-        <variable display_value="">c35dfee20a0a0ba96248a709f3a40869</variable>
+        <variable display_value="Task values from">c35dfee20a0a0ba96248a709f3a40869</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2010,7 +2009,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:50:07</sys_updated_on>
         <value>1bc5c08f4ffa23008f3133718110c746</value>
-        <variable display_value="">c35e07ae0a0a0ba96248a7097c81317c</variable>
+        <variable display_value="Fulfillment group">c35e07ae0a0a0ba96248a7097c81317c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2024,7 +2023,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:48:24</sys_updated_on>
         <value/>
-        <variable display_value="">c35e0c980a0a0ba96248a70916cbc62e</variable>
+        <variable display_value="Assigned to">c35e0c980a0a0ba96248a70916cbc62e</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2038,7 +2037,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:48:24</sys_updated_on>
         <value>Enhancement task for reviewing visa docs</value>
-        <variable display_value="">c35e10720a0a0ba96248a709d48d0894</variable>
+        <variable display_value="Short description">c35e10720a0a0ba96248a709d48d0894</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2052,7 +2051,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:48:24</sys_updated_on>
         <value/>
-        <variable display_value="">c35e176c0a0a0ba96248a7090e235011</variable>
+        <variable display_value="Instructions">c35e176c0a0a0ba96248a7090e235011</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2066,7 +2065,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:48:24</sys_updated_on>
         <value/>
-        <variable display_value="">c35e45aa0a0a0ba96248a709f3af7bac</variable>
+        <variable display_value="Task template">c35e45aa0a0a0ba96248a709f3af7bac</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2080,7 +2079,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 17:48:24</sys_updated_on>
         <value/>
-        <variable display_value="">c35dd7a80a0a0ba96248a709f45ae01b</variable>
+        <variable display_value="Set values">c35dd7a80a0a0ba96248a709f45ae01b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2094,7 +2093,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 18:11:14</sys_updated_on>
         <value>1</value>
-        <variable display_value="">989c45c8c0a8006676efffafaa6d7442</variable>
+        <variable display_value="Advanced">989c45c8c0a8006676efffafaa6d7442</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2115,7 +2114,7 @@ answer = 0;</value>
 //current.state=2;&#13;
 &#13;
 </value>
-        <variable display_value="">989cdb20c0a800661789b3de0f40214a</variable>
+        <variable display_value="Advanced Script">989cdb20c0a800661789b3de0f40214a</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2130,7 +2129,7 @@ answer = 0;</value>
         <sys_updated_on>2019-01-09 17:48:24</sys_updated_on>
         <value>// Set 'answer' to the number of seconds this timer should wait&#13;
 answer = 0;</value>
-        <variable display_value="">8eca692cc0a80066783fefee57143a1a</variable>
+        <variable display_value="Due date script">8eca692cc0a80066783fefee57143a1a</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Enhancement Task">bec5b8134f7663008f3133718110c74f</activity>
@@ -2194,7 +2193,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:02:20</sys_updated_on>
         <value>visa_status=4^EQ</value>
-        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2208,7 +2207,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:02:20</sys_updated_on>
         <value>visa_status=4^EQ</value>
-        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="review with consulate">1d2125574fb663008f3133718110c711</activity>
@@ -2272,7 +2271,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 23:22:49</sys_updated_on>
         <value>visa_status=8^EQ</value>
-        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2286,7 +2285,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 23:22:49</sys_updated_on>
         <value>visa_status=8^EQ</value>
-        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Set  Rejected">51d2861b4ff663008f3133718110c7c5</activity>
@@ -2350,7 +2349,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 23:03:30</sys_updated_on>
         <value>visa_status=6^EQ</value>
-        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2364,7 +2363,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 23:03:30</sys_updated_on>
         <value>visa_status=6^EQ</value>
-        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Set Delivered">3ebef5574ff663008f3133718110c786</activity>
@@ -2428,7 +2427,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:46:23</sys_updated_on>
         <value>visa_status=5^EQ</value>
-        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2442,7 +2441,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:46:23</sys_updated_on>
         <value>visa_status=5^EQ</value>
-        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Stamping">33daf1d34ff663008f3133718110c70b</activity>
@@ -2506,7 +2505,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value>Consulate approved for Stamping</value>
-        <variable display_value="">c35e10720a0a0ba96248a709d48d0894</variable>
+        <variable display_value="Short description">c35e10720a0a0ba96248a709d48d0894</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2520,7 +2519,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value/>
-        <variable display_value="">8ec1dbcec0a800662abc511f1daedc1d</variable>
+        <variable display_value="Due date based on">8ec1dbcec0a800662abc511f1daedc1d</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2534,7 +2533,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value>0</value>
-        <variable display_value="">989c45c8c0a8006676efffafaa6d7442</variable>
+        <variable display_value="Advanced">989c45c8c0a8006676efffafaa6d7442</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2548,7 +2547,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value>Fields</value>
-        <variable display_value="">c35dfee20a0a0ba96248a709f3a40869</variable>
+        <variable display_value="Task values from">c35dfee20a0a0ba96248a709f3a40869</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2562,7 +2561,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value/>
-        <variable display_value="">c35e49040a0a0ba96248a709c2b3780b</variable>
+        <variable display_value="Priority">c35e49040a0a0ba96248a709c2b3780b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2576,7 +2575,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value/>
-        <variable display_value="">c35e03850a0a0ba96248a709503bd0c4</variable>
+        <variable display_value="Duration">c35e03850a0a0ba96248a709503bd0c4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2590,7 +2589,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value/>
-        <variable display_value="">8ecbeba5c0a8006672d676cd11dfa881</variable>
+        <variable display_value="Schedule based on">8ecbeba5c0a8006672d676cd11dfa881</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2604,7 +2603,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
-        <variable display_value="">8eda2a35c0a800660f7aef7be752bf0b</variable>
+        <variable display_value="Schedule">8eda2a35c0a800660f7aef7be752bf0b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2618,7 +2617,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value/>
-        <variable display_value="">c35e0c980a0a0ba96248a70916cbc62e</variable>
+        <variable display_value="Assigned to">c35e0c980a0a0ba96248a70916cbc62e</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2633,7 +2632,7 @@ answer = 0;</value>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value>// Set 'answer' to the number of seconds this timer should wait&#13;
 answer = 0;</value>
-        <variable display_value="">8eca692cc0a80066783fefee57143a1a</variable>
+        <variable display_value="Due date script">8eca692cc0a80066783fefee57143a1a</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2647,7 +2646,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value/>
-        <variable display_value="">c35e45aa0a0a0ba96248a709f3af7bac</variable>
+        <variable display_value="Task template">c35e45aa0a0a0ba96248a709f3af7bac</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2661,7 +2660,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value/>
-        <variable display_value="">8ecf789cc0a8006652fc30aae937c5aa</variable>
+        <variable display_value="Schedule field">8ecf789cc0a8006652fc30aae937c5aa</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2675,7 +2674,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
-        <variable display_value="">8ec7a5dbc0a80066187fa7acf3778705</variable>
+        <variable display_value="Relative duration">8ec7a5dbc0a80066187fa7acf3778705</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2689,7 +2688,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value>1</value>
-        <variable display_value="">c35e5fc70a0a0ba96248a7091af61d11</variable>
+        <variable display_value="Wait for completion">c35e5fc70a0a0ba96248a7091af61d11</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2703,7 +2702,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value/>
-        <variable display_value="">8ed4dbbec0a800664dbecf404d2c7ccd</variable>
+        <variable display_value="Time zone">8ed4dbbec0a800664dbecf404d2c7ccd</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2717,7 +2716,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value/>
-        <variable display_value="">c35e176c0a0a0ba96248a7090e235011</variable>
+        <variable display_value="Instructions">c35e176c0a0a0ba96248a7090e235011</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2731,7 +2730,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value>rm_enhancement</value>
-        <variable display_value="">c35ddb660a0a0ba96248a7095d22925c</variable>
+        <variable display_value="Task type">c35ddb660a0a0ba96248a7095d22925c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2745,7 +2744,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value/>
-        <variable display_value="">8ed08869c0a800662aafc17e09975bb3</variable>
+        <variable display_value="Time zone based on">8ed08869c0a800662aafc17e09975bb3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2759,7 +2758,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value/>
-        <variable display_value="">8ed32275c0a800665d67078e699a171f</variable>
+        <variable display_value="Timezone field">8ed32275c0a800665d67078e699a171f</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2773,7 +2772,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value>1bc5c08f4ffa23008f3133718110c746</value>
-        <variable display_value="">c35e07ae0a0a0ba96248a7097c81317c</variable>
+        <variable display_value="Fulfillment group">c35e07ae0a0a0ba96248a7097c81317c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2793,7 +2792,7 @@ answer = 0;</value>
 //     task.short_description = current.short_description;&#13;
 &#13;
 </value>
-        <variable display_value="">989cdb20c0a800661789b3de0f40214a</variable>
+        <variable display_value="Advanced Script">989cdb20c0a800661789b3de0f40214a</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2807,7 +2806,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value/>
-        <variable display_value="">8ec61405c0a800661755b30be4ff8fcd</variable>
+        <variable display_value="Due date field">8ec61405c0a800661755b30be4ff8fcd</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2821,7 +2820,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value/>
-        <variable display_value="">c35dd7a80a0a0ba96248a709f45ae01b</variable>
+        <variable display_value="Set values">c35dd7a80a0a0ba96248a709f45ae01b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2835,7 +2834,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value>rm_enhancement</value>
-        <variable display_value="">c35ddb660a0a0ba96248a7095d22925c</variable>
+        <variable display_value="Task type">c35ddb660a0a0ba96248a7095d22925c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2849,7 +2848,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value/>
-        <variable display_value="">c35e49040a0a0ba96248a709c2b3780b</variable>
+        <variable display_value="Priority">c35e49040a0a0ba96248a709c2b3780b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2863,7 +2862,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value>1</value>
-        <variable display_value="">c35e5fc70a0a0ba96248a7091af61d11</variable>
+        <variable display_value="Wait for completion">c35e5fc70a0a0ba96248a7091af61d11</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2877,7 +2876,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value/>
-        <variable display_value="">8ec1dbcec0a800662abc511f1daedc1d</variable>
+        <variable display_value="Due date based on">8ec1dbcec0a800662abc511f1daedc1d</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2891,7 +2890,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value/>
-        <variable display_value="">c35e03850a0a0ba96248a709503bd0c4</variable>
+        <variable display_value="Duration">c35e03850a0a0ba96248a709503bd0c4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2905,7 +2904,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value/>
-        <variable display_value="">8ec61405c0a800661755b30be4ff8fcd</variable>
+        <variable display_value="Due date field">8ec61405c0a800661755b30be4ff8fcd</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2919,7 +2918,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
-        <variable display_value="">8ec7a5dbc0a80066187fa7acf3778705</variable>
+        <variable display_value="Relative duration">8ec7a5dbc0a80066187fa7acf3778705</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2933,7 +2932,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value/>
-        <variable display_value="">8ecbeba5c0a8006672d676cd11dfa881</variable>
+        <variable display_value="Schedule based on">8ecbeba5c0a8006672d676cd11dfa881</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2947,7 +2946,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value/>
-        <variable display_value="">8ecf789cc0a8006652fc30aae937c5aa</variable>
+        <variable display_value="Schedule field">8ecf789cc0a8006652fc30aae937c5aa</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2961,7 +2960,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
-        <variable display_value="">8eda2a35c0a800660f7aef7be752bf0b</variable>
+        <variable display_value="Schedule">8eda2a35c0a800660f7aef7be752bf0b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2975,7 +2974,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value/>
-        <variable display_value="">8ed08869c0a800662aafc17e09975bb3</variable>
+        <variable display_value="Time zone based on">8ed08869c0a800662aafc17e09975bb3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2989,7 +2988,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value/>
-        <variable display_value="">8ed4dbbec0a800664dbecf404d2c7ccd</variable>
+        <variable display_value="Time zone">8ed4dbbec0a800664dbecf404d2c7ccd</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -3003,7 +3002,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value/>
-        <variable display_value="">8ed32275c0a800665d67078e699a171f</variable>
+        <variable display_value="Timezone field">8ed32275c0a800665d67078e699a171f</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -3017,7 +3016,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value>Fields</value>
-        <variable display_value="">c35dfee20a0a0ba96248a709f3a40869</variable>
+        <variable display_value="Task values from">c35dfee20a0a0ba96248a709f3a40869</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -3031,7 +3030,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value>1bc5c08f4ffa23008f3133718110c746</value>
-        <variable display_value="">c35e07ae0a0a0ba96248a7097c81317c</variable>
+        <variable display_value="Fulfillment group">c35e07ae0a0a0ba96248a7097c81317c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -3045,7 +3044,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value/>
-        <variable display_value="">c35e0c980a0a0ba96248a70916cbc62e</variable>
+        <variable display_value="Assigned to">c35e0c980a0a0ba96248a70916cbc62e</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -3059,7 +3058,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value>Consulate approved for Stamping</value>
-        <variable display_value="">c35e10720a0a0ba96248a709d48d0894</variable>
+        <variable display_value="Short description">c35e10720a0a0ba96248a709d48d0894</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -3073,7 +3072,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value/>
-        <variable display_value="">c35e176c0a0a0ba96248a7090e235011</variable>
+        <variable display_value="Instructions">c35e176c0a0a0ba96248a7090e235011</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -3087,7 +3086,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value/>
-        <variable display_value="">c35e45aa0a0a0ba96248a709f3af7bac</variable>
+        <variable display_value="Task template">c35e45aa0a0a0ba96248a709f3af7bac</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -3101,7 +3100,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value/>
-        <variable display_value="">c35dd7a80a0a0ba96248a709f45ae01b</variable>
+        <variable display_value="Set values">c35dd7a80a0a0ba96248a709f45ae01b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -3115,7 +3114,7 @@ answer = 0;</value>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value>0</value>
-        <variable display_value="">989c45c8c0a8006676efffafaa6d7442</variable>
+        <variable display_value="Advanced">989c45c8c0a8006676efffafaa6d7442</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -3135,7 +3134,7 @@ answer = 0;</value>
 //     task.short_description = current.short_description;&#13;
 &#13;
 </value>
-        <variable display_value="">989cdb20c0a800661789b3de0f40214a</variable>
+        <variable display_value="Advanced Script">989cdb20c0a800661789b3de0f40214a</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -3150,7 +3149,7 @@ answer = 0;</value>
         <sys_updated_on>2019-01-09 22:25:42</sys_updated_on>
         <value>// Set 'answer' to the number of seconds this timer should wait&#13;
 answer = 0;</value>
-        <variable display_value="">8eca692cc0a80066783fefee57143a1a</variable>
+        <variable display_value="Due date script">8eca692cc0a80066783fefee57143a1a</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Stamping Task">c7e5b5534ff663008f3133718110c72d</activity>

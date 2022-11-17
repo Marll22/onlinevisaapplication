@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_documentation element="email" label="Email" language="en" table="x_300454_visa_app_visa_application">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>email</element>
@@ -12,7 +11,7 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-01-08 16:11:37</sys_created_on>
-            <sys_id>0a075bb64fba23008f3133718110c706</sys_id>
+            <sys_id>a2d5416897931110df6f38271153af18</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Email</sys_name>
             <sys_package display_value="Online Visa Application" source="x_300454_visa_app">9447fa3a4f3a23008f3133718110c73a</sys_package>

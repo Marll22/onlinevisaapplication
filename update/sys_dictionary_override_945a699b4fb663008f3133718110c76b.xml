@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_dictionary_override">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override">
     <sys_dictionary_override action="INSERT_OR_UPDATE">
         <attributes>default_work_state=9,close_states=3;4;7;11,default_close_state=11</attributes>
         <attributes_override>true</attributes_override>

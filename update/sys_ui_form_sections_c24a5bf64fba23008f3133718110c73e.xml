@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_form_sections form_id="c24a5bf64fba23008f3133718110c73e" sys_domain="global" table="x_300454_visa_app_visa_application" version="3">
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>0</position>
@@ -53,7 +52,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_300454_visa_app_visa_application" name="x_300454_visa_app_visa_application" sys_domain="global" view="Default view">c24a5bf64fba23008f3133718110c73e</sys_ui_form>
-            <sys_ui_section caption="Details of Visa Sought" display_value="Details of Visa Sought" name="x_300454_visa_app_visa_application" sys_domain="global" view="NULL">488f1bba4fba23008f3133718110c754</sys_ui_section>
+            <sys_ui_section caption="Details of Visa Sought" display_value="Details of Visa Sought" name="x_300454_visa_app_visa_application" sys_domain="global" view="Default view">488f1bba4fba23008f3133718110c754</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2019-01-08 16:48:36</sys_updated_on>
         </sys_ui_form_section>

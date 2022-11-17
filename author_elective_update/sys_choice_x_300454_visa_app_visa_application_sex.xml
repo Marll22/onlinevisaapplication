@@ -1,6 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="sex" table="x_300454_visa_app_visa_application" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>sex</element>
+            <name>x_300454_visa_app_visa_application</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-08 14:50:55</sys_created_on>
+            <sys_id>2bd5056897931110df6f38271153af25</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sex</sys_name>
+            <sys_package display_value="Online Visa Application" source="x_300454_visa_app">9447fa3a4f3a23008f3133718110c73a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Online Visa Application">9447fa3a4f3a23008f3133718110c73a</sys_scope>
+            <sys_update_name>sys_choice_x_300454_visa_app_visa_application_sex</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-08 14:50:55</sys_updated_on>
+        </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>sex</element>
@@ -10,6 +25,7 @@
             <language>en</language>
             <name>x_300454_visa_app_visa_application</name>
             <sequence>0</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-01-08 14:50:55</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -29,6 +45,7 @@
             <language>en</language>
             <name>x_300454_visa_app_visa_application</name>
             <sequence>1</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-01-08 14:51:18</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -39,21 +56,5 @@
             <sys_updated_on>2019-01-08 14:51:50</sys_updated_on>
             <value>female</value>
         </sys_choice>
-        <sys_choice_set action="INSERT_OR_UPDATE">
-            <element>sex</element>
-            <name>x_300454_visa_app_visa_application</name>
-            <sys_class_name>sys_choice_set</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-01-08 14:50:55</sys_created_on>
-            <sys_id>409447fa4f7a23008f3133718110c748</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>sex</sys_name>
-            <sys_package display_value="Online Visa Application" source="x_300454_visa_app">9447fa3a4f3a23008f3133718110c73a</sys_package>
-            <sys_policy/>
-            <sys_scope display_value="Online Visa Application">9447fa3a4f3a23008f3133718110c73a</sys_scope>
-            <sys_update_name>sys_choice_x_300454_visa_app_visa_application_sex</sys_update_name>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-01-08 14:50:55</sys_updated_on>
-        </sys_choice_set>
     </sys_choice>
 </record_update>

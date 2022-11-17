@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_related sys_domain="global" table="rm_enhancement" version="2" view="visa_docs_review">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Enhancement - visa docs review" name="rm_enhancement" related_list="NULL" sys_domain="global" view="f21f78d34f7663008f3133718110c7dd">2697455b4f7663008f3133718110c72e</list_id>
+            <list_id display_value="rm_enhancement - visa docs review" name="rm_enhancement" related_list="NULL" sys_domain="global" view="f21f78d34f7663008f3133718110c7dd">2697455b4f7663008f3133718110c72e</list_id>
             <order_by/>
             <position>0</position>
             <related_list>rm_enhancement.parent</related_list>
@@ -17,7 +16,7 @@
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Enhancement - visa docs review" name="rm_enhancement" related_list="NULL" sys_domain="global" view="f21f78d34f7663008f3133718110c7dd">2697455b4f7663008f3133718110c72e</list_id>
+            <list_id display_value="rm_enhancement - visa docs review" name="rm_enhancement" related_list="NULL" sys_domain="global" view="f21f78d34f7663008f3133718110c7dd">2697455b4f7663008f3133718110c72e</list_id>
             <order_by/>
             <position>1</position>
             <related_list>rm_enhancement.parent_feature</related_list>
@@ -31,7 +30,7 @@
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Enhancement - visa docs review" name="rm_enhancement" related_list="NULL" sys_domain="global" view="f21f78d34f7663008f3133718110c7dd">2697455b4f7663008f3133718110c72e</list_id>
+            <list_id display_value="rm_enhancement - visa docs review" name="rm_enhancement" related_list="NULL" sys_domain="global" view="f21f78d34f7663008f3133718110c7dd">2697455b4f7663008f3133718110c72e</list_id>
             <order_by/>
             <position>2</position>
             <related_list>rm_enhancement.top_task</related_list>
@@ -45,7 +44,7 @@
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Enhancement - visa docs review" name="rm_enhancement" related_list="NULL" sys_domain="global" view="f21f78d34f7663008f3133718110c7dd">2697455b4f7663008f3133718110c72e</list_id>
+            <list_id display_value="rm_enhancement - visa docs review" name="rm_enhancement" related_list="NULL" sys_domain="global" view="f21f78d34f7663008f3133718110c7dd">2697455b4f7663008f3133718110c72e</list_id>
             <order_by/>
             <position>3</position>
             <related_list>sysapproval_approver.sysapproval</related_list>
@@ -58,7 +57,7 @@
             <sys_updated_on>2019-01-09 19:01:55</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
-            <calculated_name>Enhancement - visa docs review</calculated_name>
+            <calculated_name>rm_enhancement - visa docs review</calculated_name>
             <filter/>
             <name>rm_enhancement</name>
             <order_by/>

@@ -1,14 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sys_app_module">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="Online Visa Application">bd6bf6b64f7a23008f3133718110c737</application>
+        <application display_value="">bd6bf6b64f7a23008f3133718110c737</application>
         <assessment/>
-        <content_page/>
         <device_type/>
-        <filter table="rm_enhancement">active=true^assigned_to=javascript:getMyAssignments()^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
-            <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="=" or="false" value="javascript:getMyAssignments()"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <filter table="rm_enhancement">active=true^assigned_to=javascript:getMyAssignments()^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <hint/>
         <homepage/>
@@ -23,8 +19,6 @@
         <query/>
         <report/>
         <roles>x_300454_visa_app.visa_consulate,x_300454_visa_app.visadocs_verify</roles>
-        <survey/>
-        <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-01-10 01:07:00</sys_created_on>

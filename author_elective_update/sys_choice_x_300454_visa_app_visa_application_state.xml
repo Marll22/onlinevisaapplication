@@ -1,6 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_300454_visa_app_visa_application" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_300454_visa_app_visa_application</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-09 13:37:15</sys_created_on>
+            <sys_id>71e5496897931110df6f38271153afd9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="Online Visa Application" source="x_300454_visa_app">9447fa3a4f3a23008f3133718110c73a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Online Visa Application">9447fa3a4f3a23008f3133718110c73a</sys_scope>
+            <sys_update_name>sys_choice_x_300454_visa_app_visa_application_state</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-09 13:37:15</sys_updated_on>
+        </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
@@ -10,6 +25,7 @@
             <language>en</language>
             <name>x_300454_visa_app_visa_application</name>
             <sequence>0</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-01-09 13:37:15</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -29,6 +45,7 @@
             <language>en</language>
             <name>x_300454_visa_app_visa_application</name>
             <sequence>0</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-01-09 13:37:15</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -48,6 +65,7 @@
             <language>en</language>
             <name>x_300454_visa_app_visa_application</name>
             <sequence>1</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-01-09 13:37:15</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -67,6 +85,7 @@
             <language>en</language>
             <name>x_300454_visa_app_visa_application</name>
             <sequence>2</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-01-09 13:37:15</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -86,6 +105,7 @@
             <language>en</language>
             <name>x_300454_visa_app_visa_application</name>
             <sequence>3</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-01-09 13:37:15</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -105,6 +125,7 @@
             <language>en</language>
             <name>x_300454_visa_app_visa_application</name>
             <sequence>4</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-01-09 13:37:15</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -124,6 +145,7 @@
             <language>en</language>
             <name>x_300454_visa_app_visa_application</name>
             <sequence>5</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-01-09 13:37:15</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -143,6 +165,7 @@
             <language>en</language>
             <name>x_300454_visa_app_visa_application</name>
             <sequence>6</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-01-09 13:37:15</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -162,6 +185,7 @@
             <language>en</language>
             <name>x_300454_visa_app_visa_application</name>
             <sequence>7</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-01-09 13:37:15</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -181,6 +205,7 @@
             <language>en</language>
             <name>x_300454_visa_app_visa_application</name>
             <sequence>8</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-01-09 13:37:15</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -191,21 +216,5 @@
             <sys_updated_on>2019-01-09 21:35:59</sys_updated_on>
             <value>3</value>
         </sys_choice>
-        <sys_choice_set action="INSERT_OR_UPDATE">
-            <element>state</element>
-            <name>x_300454_visa_app_visa_application</name>
-            <sys_class_name>sys_choice_set</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-01-09 13:37:15</sys_created_on>
-            <sys_id>fa4d3b834ff263008f3133718110c78c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>state</sys_name>
-            <sys_package display_value="Online Visa Application" source="x_300454_visa_app">9447fa3a4f3a23008f3133718110c73a</sys_package>
-            <sys_policy/>
-            <sys_scope display_value="Online Visa Application">9447fa3a4f3a23008f3133718110c73a</sys_scope>
-            <sys_update_name>sys_choice_x_300454_visa_app_visa_application_state</sys_update_name>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-01-09 13:37:15</sys_updated_on>
-        </sys_choice_set>
     </sys_choice>
 </record_update>

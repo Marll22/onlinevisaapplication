@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_security_acl_role">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
     <sys_security_acl_role action="INSERT_OR_UPDATE">
         <sys_class_name>sys_security_acl_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -14,7 +13,7 @@
         <sys_update_name>sys_security_acl_role_e1e59a6b4ffe63008f3133718110c708</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-10 19:22:39</sys_updated_on>
-        <sys_user_role display_value="visa_creator" name="visa_creator">b1c12cc24fd223008f3133718110c7a7</sys_user_role>
+        <sys_user_role display_value="">b1c12cc24fd223008f3133718110c7a7</sys_user_role>
         <transaction_id/>
     </sys_security_acl_role>
 </record_update>

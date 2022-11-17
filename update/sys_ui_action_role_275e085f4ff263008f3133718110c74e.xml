@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_ui_action_role">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_role">
     <sys_ui_action_role action="INSERT_OR_UPDATE">
         <sys_class_name>sys_ui_action_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -14,6 +13,6 @@
         <sys_update_name>sys_ui_action_role_275e085f4ff263008f3133718110c74e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-09 14:52:43</sys_updated_on>
-        <sys_user_role display_value="visa_creator" name="visa_creator">b1c12cc24fd223008f3133718110c7a7</sys_user_role>
+        <sys_user_role display_value="">b1c12cc24fd223008f3133718110c7a7</sys_user_role>
     </sys_ui_action_role>
 </record_update>

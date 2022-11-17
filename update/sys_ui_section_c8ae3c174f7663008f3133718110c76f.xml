@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="visa docs review" section_id="c8ae3c174f7663008f3133718110c76f" sys_domain="global" table="rm_enhancement" version="3" view="extended_view">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number</element>
@@ -27,7 +26,7 @@
             <sys_domain_path>/</sys_domain_path>
             <sys_id>c8ae3c174f7663008f3133718110c76f</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>visa docs review</sys_name>
+            <sys_name>rm_enhancement</sys_name>
             <sys_overrides/>
             <sys_package display_value="Online Visa Application" source="x_300454_visa_app">9447fa3a4f3a23008f3133718110c73a</sys_package>
             <sys_policy/>
